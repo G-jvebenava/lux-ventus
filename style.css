@@ -349,8 +349,8 @@ hr {
 .news-card {
     position: relative;
     display: flex;
-    background-color: #FFFFFF;
-    width: 547px;
+    background: #FFFFFF;
+    width: 1204px;
     height: 367px;
     border-radius: 20px;
     gap: 45px;
@@ -368,4 +368,10 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.news-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 69px;
 }
