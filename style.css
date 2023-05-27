@@ -279,11 +279,11 @@ hr {
     position: relative;
 }
 .button-small {
-    width: 175.44px;
+    width: 180.44px;
     height: 36.49px;
     background: #262626;
     border-radius: 40px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
