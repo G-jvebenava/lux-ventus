@@ -39,6 +39,7 @@ header {
     background: #4CE0D7;
     border-radius: 40px;
     border: none ;
+    transition: 0.5s;
    
 }
 .button:hover {
@@ -374,4 +375,94 @@ hr {
     flex-direction: column;
     gap: 50px;
     margin-bottom: 69px;
+}
+
+.footer {
+    max-width: 100%;
+    max-height: 308px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.footer .logo {
+    position: absolute;
+    width: 226px;
+    height: 49px;
+    left: 84px;
+    top: 87px;
+} 
+
+.footer > p {
+    position: absolute;
+    width: 227px;
+    height: 42px;
+    right: 337px;
+    top: 87px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #262626;
+}
+
+.footer .facebook {
+    position: absolute;
+    top: 92px;
+    max-width: 31px;
+    max-height: 31px;
+    right: 293px;
+}
+
+.footer .tweeter {
+    position: absolute;
+    top: 92px;
+    max-width: 31px;
+    max-height: 31px;
+    right: 241px;
+}
+
+.footer .linkedin {
+    position: absolute;
+    top: 92px;
+    max-width: 31px;
+    max-height: 31px;
+    right: 190px;
+}
+
+.footer .youtube {
+    position: absolute;
+    top: 92px;
+    max-width: 31px;
+    max-height: 31px;
+    right: 140px;
+}
+
+.footer .instagram {
+    position: absolute;
+    top: 92px;
+    max-width: 31px;
+    max-height: 31px;
+    right: 89px;
+}
+
+.h {
+    background-color: #BCBCBC;
+    margin-top: 250px;
+    margin-bottom: 95px;
+    margin-left: 86.6px;
+    margin-right: 86.6px;
+}
+
+.last-footer {
+    max-width: 413px;
+    max-height: 24px;
+    margin-left: 88px;
+    margin-bottom: 37px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
 }
