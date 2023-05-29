@@ -573,3 +573,251 @@ hr {
     line-height: 21px;
     color: #262626;
 }
+
+ @media screen and (max-width: 600px)
+ {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: -40px;
+    }
+    .navigation {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .container-small {
+        background-image: url(./assets/image/new-image.png);
+        width: 500px;
+        height: 220px;
+        margin: 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    .lux-ventus-magazine {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 50PX;
+        gap: 5px;
+    }
+
+    .lux-ventus-magazine > h1 {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .lux-ventus-magazine > p {
+        font-size: 12px;
+        
+    }
+
+    .topics h2 {
+        padding-left: 225px;
+    }
+
+    .topics-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 80px;
+    }
+
+    .fashion-img {
+        max-height:360px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fashion-post-text > p {
+        max-width: 400px;
+        max-height: 45px;
+        font-size: 10px;
+        margin-top: -30px;
+        
+ }
+
+ .fashion-post-text > h2 {
+    max-width: 538px;
+    max-height: 96px;
+    font-size: 25px;
+}
+
+.fashion-post-text .read-more-common {
+    margin-top: 40px;
+}
+
+    .fashion-post-text {
+       display: flex;
+       flex-direction: column;   
+    }
+ .trending-header {
+    padding-left: 225px;
+ }
+    .trending-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .news-card > img {
+        background-size: contain;
+        max-width: 550px;
+
+    }
+
+    .news-cards {
+        gap: 450px;
+    }
+
+    .news-card:first-child {
+        max-width: 450px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .common-div {
+        position: absolute;
+        top: 350px;
+        gap: -35px;
+    }
+
+    .malory-reyn-1 {
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .news-card-input >  h2 {
+        padding-left: 40px;
+
+    }
+
+    .news-card-input >  p {
+        padding-left: 40px;
+
+    }
+
+    .news-card-input .read-more-common {
+        padding-left: 60px;
+
+    }
+
+    .news-card {
+        max-width: 550px;
+        max-height: 302.19px;
+        padding-left: 90px;
+
+    }
+
+    .news-card > img {
+        max-width: 550px;
+    }
+
+    .news-card:nth-child(2) {
+        max-width: 450px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .news-card:nth-child(3) {
+        max-width: 450px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        margin-top: 500px;
+        position: relative;
+    }
+
+    .footer .logo{
+        width: 170px;
+        height: 35px;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+
+    .footer > .facebook {
+        position: absolute;
+        top: 15px;
+        left: 270px;
+    }
+
+    .footer > .tweeter {
+        position: absolute;
+        top: 15px;
+        left: 320px;
+    }
+
+    .footer > .linkedin {
+        position: absolute;
+        top: 15px;
+        left: 370px;
+    }
+
+    .footer > .youtube {
+        position: absolute;
+        top: 15px;
+        left: 420px;
+    }
+    
+    .footer > .instagram {
+        position: absolute;
+        top: 15px;
+        left: 470px;
+    }
+
+    .footer > p {
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+
+    .last-footer {
+        position: relative;
+    }
+
+    .last-footer > p {
+        position: absolute;
+        top: 20px;
+        left: -80px;
+    }
+
+    .h {
+        margin-bottom: 95px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    hr {
+        max-width: 600px;
+    }
+}
